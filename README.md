@@ -16,4 +16,16 @@ print(lengths)  # 출력: [5, 5, 6]
 numbers = [1, 2, 3, 4]
 strings = [str(num) for num in numbers]
 print(strings)  # 출력: ['1', '2', '3', '4']
+
+#Slicing
+lst = [1, 2, 3, 4, 5]
+print(lst[::-1])  # 출력: [5, 4, 3, 2, 1]
+
+test = 'abcde'
+print(test[1:4:-1])  # 출력: ''
+print(test[4:1:-1])  # 출력: 'edc'
+
+test = 'abcde'
+print(test[::2])  # 출력: 'ace' (2칸씩 앞으로)
+print(test[::-2])  # 출력: 'eca' (2칸씩 뒤로)
 ```
