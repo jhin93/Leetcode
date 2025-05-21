@@ -28,4 +28,15 @@ print(test[4:1:-1])  # 출력: 'edc'
 test = 'abcde'
 print(test[::2])  # 출력: 'ace' (2칸씩 앞으로)
 print(test[::-2])  # 출력: 'eca' (2칸씩 뒤로)
+
+#lambda function
+lambda의 역할
+함수 이름 없이 간단하게 함수를 만들고 싶을 때 사용합니다.
+보통 콜백 함수나 한 번만 쓸 간단한 함수를 만들 때 많이 씁니다.
+
+def add(x, y):
+    return x + y
+
+add = lambda x, y: x + y
+
 ```
