@@ -2,6 +2,7 @@
 
 # Leetcode
 ```python
+# === Python ===
 # List comprehension 
 squares = [x**2 for x in range(10)]
 print(squares)  # 출력: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
@@ -30,9 +31,8 @@ print(test[::2])  # 출력: 'ace' (2칸씩 앞으로)
 print(test[::-2])  # 출력: 'eca' (2칸씩 뒤로)
 
 #lambda function
-lambda의 역할
-## 함수 이름 없이 간단하게 함수를 만들고 싶을 때 사용합니다. 보통 콜백 함수나 한 번만 쓸 간단한 함수를 만들 때 많이 씁니다.
 
+## lambda의 역할은 함수 이름 없이 간단하게 함수를 만들고 싶을 때 사용합니다. 보통 콜백 함수나 한 번만 쓸 간단한 함수를 만들 때 많이 씁니다.
 def add(x, y):
     return x + y
 
