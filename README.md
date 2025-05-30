@@ -23,21 +23,23 @@ print(strings)
 # 출력: ['1', '2', '3', '4']
 
 #Slicing
+# start: 슬라이싱 시작 인덱스 (포함)
+# stop: 슬라이싱 종료 인덱스 (제외)
+# step: 인덱스 증가 단위 (양수면 왼쪽에서 오른쪽, 음수면 오른쪽에서 왼쪽)
+
 lst = [1, 2, 3, 4, 5]
 print(lst[::-1])  
 # 출력: [5, 4, 3, 2, 1]
 
 test = 'abcde'
 print(test[1:4:-1])  
-# 출력: ''
+# 출력: ''. 역방향이므로 start가 stop보다 커야 함. 근데 아님. 그래서 해당되는 문자열 없음.
 print(test[4:1:-1])  
 # 출력: 'edc'
-
-test = 'abcde'
 print(test[::2])  
-# 출력: 'ace' (2칸씩 앞으로)
+# 출력: 'ace' (앞에 2칸씩 뒤)
 print(test[::-2])  
-# 출력: 'eca' (2칸씩 뒤로)
+# 출력: 'eca' (뒤에서 2칸씩 앞으로)
 
 #lambda function
 
