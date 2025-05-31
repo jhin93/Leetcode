@@ -49,4 +49,18 @@ def add(x, y):
 
 add = lambda x, y: x + y
 
+#For in
+# 1부터 5까지 숫자를 출력
+for i in range(1, 6):
+    print(i)
+
+#While
+# 1부터 5까지 숫자를 출력
+num = 1
+while num <= 5:
+    print(num)
+    num += 1
+
+
+
 ```
