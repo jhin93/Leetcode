@@ -79,4 +79,30 @@ while index < len(coordinates):
     print(f"좌표값 {index + 1}: {coordinates[index]}")
     index += 1
 
+#Zip function
+# 두 리스트 정의
+names = ["Alice", "Bob", "Charlie"]
+ages = [25, 30, 35]
+
+# zip으로 쌍을 묶음
+paired = zip(names, ages)
+
+# 결과를 리스트로 변환해 출력
+print(list(paired))  # 출력: [('Alice', 25), ('Bob', 30), ('Charlie', 35)]
+
+# Zip function with two different length list
+letters = ['a', 'b', 'c', 'd']
+numbers = [1, 2, 3]
+
+# zip으로 묶음
+result = zip(letters, numbers)
+
+# 결과 출력
+print(list(result))  # 출력: [('a', 1), ('b', 2), ('c', 3)]
+
+#Unzip
+paired = list(zip(names, ages))
+unzipped_names, unzipped_ages = zip(*paired)
+print(unzipped_names)  # 출력: ('Alice', 'Bob', 'Charlie')
+print(unzipped_ages)   # 출력: (25, 30, 35)
 ```
