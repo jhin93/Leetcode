@@ -61,6 +61,22 @@ while num <= 5:
     print(num)
     num += 1
 
+#List repeat loop
+# 리스트를 정의합니다.
+fruits = ["사과", "바나나", "오렌지", "망고"]
 
+# for 루프를 사용하여 리스트의 각 요소를 출력합니다.
+for fruit in fruits:
+    print(f"현재 과일: {fruit}")
+
+#Tuple While loop
+# 튜플을 정의합니다.
+coordinates = (10, 20, 30, 40)
+
+# while 루프와 인덱스를 사용하여 튜플의 각 요소를 출력합니다.
+index = 0
+while index < len(coordinates):
+    print(f"좌표값 {index + 1}: {coordinates[index]}")
+    index += 1
 
 ```
