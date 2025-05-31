@@ -51,6 +51,7 @@ add = lambda x, y: x + y
 
 #For in
 # 1부터 5까지 숫자를 출력
+# for in 문은 (0, n)이면 0부터 n-1까지 돈다
 for i in range(1, 6):
     print(i)
 
